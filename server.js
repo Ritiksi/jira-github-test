@@ -15,7 +15,7 @@ app.post('/register', (req, res) => {
     console.log(`New user registered: ${username}`);
     
     res.status(201).json({
-        message: "User registered successfully!",
+        message: "User registered successfullys!",
         user: { username, email }
     });
 });
